@@ -1,0 +1,44 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: Poppins;
+    font-weight: 550;
+}
+.text{
+    position:fixed;
+    width:100%;
+    top:10vh;
+    text-align:center;
+    font-size:30px;
+    text-transform:capitalize ;
+}
+.img{
+    position:fixed;
+    width:35rem;
+    margin-top: 10rem;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+.mystyle{
+    height:18rem;
+    margin-top: 5rem;
+    transform: rotate(180deg);
+}
+@media(max-width:800px) {
+    .mystyle{
+        height:14rem;
+        margin-top: 3rem;
+        transform: rotate(180deg);
+    }
+   img{
+       width:20rem;
+       height: 17rem;
+   }
+   .img{
+    position:fixed;
+    width:20rem;
+    margin-top: 20rem;
+} 
+}
